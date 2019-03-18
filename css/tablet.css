@@ -1,0 +1,60 @@
+
+#navbar h1{
+    float:none; 
+    text-align: center; 
+    padding-bottom:15px;
+}
+.navbar-right{float: none;}   
+.navbar-right ul{float: none;}
+.navbar-right ul li{float: none;}
+.navbar-right ul li a{
+    padding:10px; 
+    border-bottom:1px solid #ddd;
+}
+.navbar-right form{
+    float:none; 
+    text-align: center; 
+    padding: 10px; 
+}
+input[placeholder] {
+    text-align: center;
+}
+.chose-boxes div{
+    width:47%;
+}
+.c-desc{
+    line-height: 1.5;
+    margin:auto;
+    max-width: 50%;
+}
+.exp-section{
+    float:none;
+    max-width: 100%;
+    padding-bottom: 30px;
+}
+.exp-img{
+    float:none;
+    max-width:100%;
+    text-align: left;
+}
+.pers {
+    width: 49.99999%;
+    margin: 6px 0;
+}
+.gallery .mask{
+    width: 95%;
+    height: 355px;
+    top: 8px;
+    left: 9px;
+}
+.mask p{
+    padding: 20px 20px 20px;
+}
+.mask ul{
+    margin-top:180px;
+    text-align: center;
+}
+.blog-boxes .b-d {
+    width: 90%;
+	margin-right: 0;
+}

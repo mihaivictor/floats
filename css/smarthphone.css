@@ -1,0 +1,50 @@
+.chose-boxes div{
+    width:100%;
+}
+.c-desc{
+    line-height: 1.5;
+    margin:auto;
+    max-width: 80%;
+}
+.exp-boxes div{
+    float:none;
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+/* SERVICES SECTION */
+.services-tabs{
+    width:100%;
+}
+.services-tabs ul{
+    width:100%;
+    margin-bottom:20px;
+}
+.services-tabs ul li{
+    padding: 10px 0;
+    display: inline;
+    padding-right:20px;
+}
+.services-content{
+    width:100%;
+}
+.services-pbars{
+    width:100%;
+    padding-left:0;
+    padding-top:0;
+}
+
+#pricing-table .plan{
+    width:100%;
+    float: none;
+}
+#pricing-table #up-plan {
+	z-index: 0;
+	top: 0px;
+    padding: 30px 20px;
+    margin:30px 0;
+    box-shadow: 0 0 10px 5px rgba(164,164, 164, 0.4); 
+}
+.pers {
+    width: 100%;
+}

@@ -565,6 +565,7 @@ html, body{
 }
 .bottom ul{
     float:right;
+    margin-right:60px;
 }
 .bottom ul li{
     display: inline;

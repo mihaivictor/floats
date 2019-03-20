@@ -58,3 +58,17 @@ input[placeholder] {
     width: 90%;
 	margin-right: 0;
 }
+/* FOOTER */
+.ft-news ul li{
+    float:none;
+    margin-right:0;
+}
+
+.ft-news ul li img{
+    width: 100%;
+}
+.ft-links li{
+      float:none;
+      width: 100%;
+      padding-bottom:17px;
+  }

@@ -48,3 +48,30 @@
 .pers {
     width: 100%;
 }
+/* FOOTER */
+.ft {
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding: 0 30px 0 10px;
+  }
+.ft-news ul li {
+    float:left;
+    width:47%;
+    margin:0 10px 15px 0;
+}
+.ft-news ul li img{
+    width: 100%;
+}
+.bottom{
+    text-align:center;
+}
+.bottom p{
+    float: none;
+    padding-top:0;
+    padding-bottom:20px;
+}
+.bottom ul{
+    width:100%;
+    float: none;
+}

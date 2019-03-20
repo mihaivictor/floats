@@ -468,6 +468,10 @@ html, body{
 	color:#9dcd29;
 	text-decoration:underline;
 }
+/* CLIENTS*/
+.desc-clients{
+    margin-bottom:30px;
+}
 
 /* Footer */
 .ft {
@@ -481,12 +485,12 @@ html, body{
       padding:15px 0;
   }
   .ft p{
-      color:white;
+      color:#999;
       line-height: 1.4;
       padding: 7px 0;
   }
   .ft a{
-      color:white;
+      color:#999;
   }
   .ft a:hover{
       color:#9dcd29;
@@ -553,18 +557,21 @@ html, body{
     padding: 5px;
     outline: none;
     background: 0 0;
+    color:#565656;
+}
+.ft-news input::placeholder{
+    color:#565656;
 }
 
 .bottom{
     background:#1B222C;
 }
 .bottom p{
-    display: block;
     float: left;
     padding-top:10px;
 }
 .bottom ul{
-    float:right;
+    float: right;
     margin-right:60px;
 }
 .bottom ul li{

@@ -8,6 +8,8 @@
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/tablet.css">
     <link rel="stylesheet" media="screen and (max-width: 500px)" href="css/smarthphone.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.css">
     <title>Floats and media queries</title>
 </head>
 <body>
@@ -311,6 +313,23 @@
                 </div>
             </div>
         </section>
+        
+    <!-- CLIENTS -->
+    <section>
+        <div class="container">
+            <h2 class="c-h2">OUR CLIENTS</h2>
+            <p class="c-desc desc-clients">At vero eos et accusamus et iusto odio dignissimos ducimus qui  blanditiis praesentium</p>
+            <div class="owl-carousel owl-theme">
+              <div class="item"> <img src="images/client1.png" alt="img"> </div>
+              <div class="item"> <img src="images/client2.png" alt="img"> </div>
+              <div class="item"> <img src="images/client3.png" alt="img"> </div>
+              <div class="item"> <img src="images/client4.png" alt="img"> </div>
+              <div class="item"> <img src="images/client5.png" alt="img"> </div>
+              <div class="item"> <img src="images/client6.png" alt="img"> </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
     <footer class="bg-dark">
         <div class="container">
             <div class="ft">
@@ -392,10 +411,30 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="owlcarousel/owl.carousel.js"></script>
 <script>
     $( function() {
         $( "#tabs" ).tabs();
     } );
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel();
+    });
+    $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
 </script>
 </body>
 </html>
